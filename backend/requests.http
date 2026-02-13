@@ -1,0 +1,11 @@
+### Obtener todas las tareas
+GET http://localhost:3001/tasks
+Accept: application/json
+
+### Crear una nueva tarea
+POST http://localhost:3001/tasks
+Content-Type: application/json
+
+{
+  "title": "Nueva tarea de ejemplo"
+}
